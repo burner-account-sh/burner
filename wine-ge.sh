@@ -4,5 +4,4 @@ wget https://github.com/GloriousEggroll/wine-ge-custom/releases/download/GE-Prot
 tar -xf wine-lutris-GE-Proton8-20-x86_64.tar.xz
 rm wine-lutris-GE-Proton8-20-x86_64.tar.xz
 mv lutris-GE-Proton8-20-x86_64 wine-ge
-sleep 10 | echo wineroot = "$HOME/.var/app/io.github.vinegarhq.Vinegar/wine/wine-ge"
 flatpak run io.github.vinegarhq.Vinegar
